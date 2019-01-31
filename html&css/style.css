@@ -1,0 +1,106 @@
+/*Selector {
+	Property: value;
+}*/
+* {
+	text-align: right;
+}
+
+body{
+	background-image: url();
+	background-size: cover;
+}
+
+h1, h2:hover {
+	color: #AA4139;
+	background: black;
+	text-align: center;
+	border: 5px solid rgb(255, 176, 170, 0.5);
+	cursor: pointer;
+}
+
+#div1 p {
+	color: pink;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext {
+	border: 5px dashed green;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background: rgba (0, 0, 255, 0.255)
+}
+
+/* element1 > element2, TRUE if element2's parent is element1*/
+/* element1 + element2, TRUE if element2 is right after element1*/
+/* last-child, first-child/
+/* important (not recommended)*/
+
+/* What selectors win out in the cascade depends on:
+-Specificity
+-Importance
+-Source Order*/
+
+section p {
+	text-decoration: underline line-through;
+	text-transform: uppercase;
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 110%;
+	font-family: "Times New Roman", Georgia;
+	/*we can link free font in html header */
+}
+
+img {
+	float: left;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+.boxmodel {
+	border: 5px solid red;
+	display: inline-block;
+	padding: 5px 20px 5px 20px;
+	margin: 0px 20px;
+	width: 33px;
+	height: 55px;
+}
+
+/* em rem */
+
+/*
+.container {
+	display: flex;
+	flex-warp: wrap;
+	justify-content: center;
+}
+*/
+
+/*
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+}
+*/
